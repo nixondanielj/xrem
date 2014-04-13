@@ -11,6 +11,9 @@ local.properties
 .settings/
 .loadpath
 
+#GAE datastore file
+appengine-generated/local_db.bin
+
 # External tool builders
 .externalToolBuilders/
 
