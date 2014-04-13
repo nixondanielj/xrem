@@ -40,7 +40,22 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
-    "greetings.greetings.getGreeting" : {
+    "greetings.greetings.query" : {
+      "path" : "queryGreetings",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.xrem.example.Greetings.queryGreetings",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "greetings.greetings.get" : {
       "path" : "greeting/{id}",
       "httpMethod" : "GET",
       "authLevel" : "NONE",
@@ -72,6 +87,18 @@
             "type" : "string"
           }
         }
+      },
+      "GreetingCollection" : {
+        "id" : "GreetingCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Greeting"
+            }
+          }
+        }
       }
     },
     "methods" : {
@@ -81,6 +108,11 @@
         },
         "response" : {
           "$ref" : "Greeting"
+        }
+      },
+      "com.xrem.example.Greetings.queryGreetings" : {
+        "response" : {
+          "$ref" : "GreetingCollection"
         }
       },
       "com.xrem.example.Greetings.getGreeting" : {

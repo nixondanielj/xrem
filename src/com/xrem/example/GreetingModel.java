@@ -6,5 +6,9 @@ import com.googlecode.objectify.annotation.Id;
 @Entity
 public class GreetingModel {
 	@Id long id;
-	String greeting;
+	String message;
+	
+	public GreetingModel(Greeting greeting){
+		this.message = greeting.message;
+	}
 }
