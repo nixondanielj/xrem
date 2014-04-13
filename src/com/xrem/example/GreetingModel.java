@@ -8,6 +8,8 @@ public class GreetingModel {
 	@Id long id;
 	String message;
 	
+	public GreetingModel(){}
+	
 	public GreetingModel(Greeting greeting){
 		this.message = greeting.message;
 	}
