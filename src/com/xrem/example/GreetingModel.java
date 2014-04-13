@@ -1,5 +1,10 @@
 package com.xrem.example;
 
-public class GreetingModel {
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
 
+@Entity
+public class GreetingModel {
+	@Id long id;
+	String greeting;
 }
