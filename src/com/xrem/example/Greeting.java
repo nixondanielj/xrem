@@ -12,5 +12,8 @@ public class Greeting {
 		this.message = message;
 	}
 	public Greeting(){}
+	public Greeting(GreetingModel g) {
+		this.message = g.message;
+	}
 	
 }

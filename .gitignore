@@ -11,6 +11,9 @@ local.properties
 .settings/
 .loadpath
 
+#GAE datastore file
+local_db.bin
+
 # External tool builders
 .externalToolBuilders/
 
