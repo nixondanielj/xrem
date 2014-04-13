@@ -33,6 +33,7 @@ public class Greetings {
 	
 	@ApiMethod(name="greetings.insert")
 	public Greeting insertGreeting(Greeting greeting){
+		data.insertGreeting(new GreetingModel(greeting));
 		return greeting;
 	}
 }
