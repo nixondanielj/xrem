@@ -1,4 +1,4 @@
-package com.xrem;
+package com.xrem.core;
 
 import java.io.IOException;
 import javax.servlet.http.*;
