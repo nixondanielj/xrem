@@ -1,14 +1,10 @@
-##YOU WILL NEED THE GOOGLE APP ENGINE ECLIPSE PLUGIN
-[here](https://developers.google.com/appengine/docs/java/tools/eclipse)
-
-Other than that, import project into eclipse, click the run button and go to localhost:porthere/app
-
-Instructions
+Project Setup
 ---
 First, [here's a great (very relevant) video](https://www.youtube.com/watch?feature=player_embedded&v=qokEYBNWA_0) to watch while you're downloading the crap in this install.
 
 [Here's some other stuff you should know](http://rest.elkstein.org/)
 
+###Step by Step
 1. Get eclipse - I grabbed [a fresh x64 copy of Java EE](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2) and "tar zxvf"d it into my home directory
 2. Eclipse does this thing where the menus don't show up in Ubuntu 13.10, try [this solution](http://stackoverflow.com/questions/19452390/eclipse-menus-dont-show-up-after-upgrading-to-ubuntu-13-10)
 3. Open up eclipse and click: Help > Install New Software
