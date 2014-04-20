@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="xremApp">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>XREM</title>
     <!-- dependencies here, custom at the bottom of the body tag -->
     <script src="app/dependencies/angular.min.js"></script>
+    <script src="app/dependencies/angular-route.min.js"></script>
+    <script src="app/dependencies/angular-resource.min.js"></script>
   </head>
   <body>
-    {{ 'Nothing here... ' + 'yet!' }}
+	<div ng-view></div>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/AdminHomeCtrl.js"></script>
   </body>
 </html>
