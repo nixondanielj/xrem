@@ -9,7 +9,7 @@ First, [here's a great (very relevant) video](https://www.youtube.com/watch?feat
 2. Eclipse does this thing where the menus don't show up in Ubuntu 13.10, try [this solution](http://stackoverflow.com/questions/19452390/eclipse-menus-dont-show-up-after-upgrading-to-ubuntu-13-10)
 3. Open up eclipse and click: Help > Install New Software
 4. In the box labeled "Work with:" enter: "http://dl.google.com/eclipse/plugin/4.3" and click add
-5. Give it a name ("I used google plugin" and click OK
+5. Give it a name (I used "google plugin") and click OK
 6. Put a check by "Google Plugin for Eclipse" and "SDKs/Google App Engine Java SDK 1.9.2"
 7. Finish the install wizard, i.e., click next a lot and agree to some terms
 8. Wait for-goddamned-ever and think about how much you hate government subsidized utility monopolies (and watch/read the content I listed above)
